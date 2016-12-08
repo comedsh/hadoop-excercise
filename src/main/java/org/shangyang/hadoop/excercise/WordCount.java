@@ -71,9 +71,9 @@ public class WordCount {
 
 	public static void main(String[] args) throws Exception {
 		
-		String inputPath = new File(".").getCanonicalPath() + "/src/main/resources/input/wordcount";
+		String inputPath = new File(".").getCanonicalPath() + "/src/test/resources/input/wordcount";
 		
-		String outputPath = new File(".").getCanonicalPath() + "/src/main/resources/output"; // 记得要删除已有的 output folder
+		String outputPath = new File(".").getCanonicalPath() + "/src/test/resources/output"; // 记得要删除已有的 output folder
 		
 		FileUtil.fullyDelete( new File( outputPath ) ); // 霸道删除，可以删除本地文件目录
 		
